@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+        html{
+            font-size: 16px;
+        }
+        header{
+            width: 100%;
+            background-color: rgb(172, 103, 0);
+            color: #fdf5f5;
+        }
+        nav{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            font-size: 20px;
+            align-items: center;
+            padding-top: 18px;
+            padding-bottom: 18px;
+            margin-left: 10%;
+        }
+        .logo
+        {
+            cursor: pointer;
+        }
+        .menu-items{
+            display: flex;
+            gap:25px;
+            align-items: center;
+            color: white;
+            margin-right: 10%;
+            cursor: pointer;
+        }
+        .menu-items li{
+            margin: 0px 20px;
+        }
+        main
+        {
+            display: flex;
+        }
+        aside{
+            height: 100vh;
+            background-color:rgb(238, 238, 238);
+            width: 25%;
+            border-left: 2px solid rgb(174, 170, 170);
+        }
+        .main-content{
+            width: 55%;
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            align-items: center;
+
+        }
+        .main-content div{
+            border: 1px solid black;
+            padding: 100px;
+            background-color: blue;
+            width: 30PX;
+            
+        }
+        #hear{
+            background-color: rgb(242, 242, 248) !important;
+        }
+        button{
+            padding: 15px;
+            background-color: green;
+            border-radius: 15px;
+            border: none;
+        }
+        button li {
+            color: white;
+        }
+        .square
+        {
+            background-color: black;
+            margin-left: 72.7%;
+            position: absolute;
+            width: 35px;
+            height: 4vh;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="" alt="logo">
+            </div>
+            <div class="menu-items">
+             <button><li>Home</li></button>
+             <button><li>About</li></button>
+             <button><li>Contact</li></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <!-- <div class="square">h</div> -->
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+             <div></div>
+        </div>
+        <aside id="hear" style="background-color: rgb(200, 161, 237);">
+
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
